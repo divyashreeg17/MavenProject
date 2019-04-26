@@ -20,10 +20,11 @@ public class GetTitle {
 		driver.findElement(By.xpath("//li[@id='menu_download']/a")).click();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		System.out.println(driver.getTitle());
-		
+		/**
 		driver.findElement(By.xpath("//li[@id='menu_documentation']/a")).click();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		System.out.println(driver.getTitle());
+		**/
 		
 		driver.close();
 		System.out.println("Jenkin with Git");
